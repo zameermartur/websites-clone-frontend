@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: ;
+}
+.main{
+    width: 375px;
+    height: 900px       ;
+}
+
+    
+fieldset{
+    border: 1px solid #99999920
+}
+textarea{
+    border: 1px solid #99999920
+}
+
+.top{
+    margin-bottom: 5px;
+}
+.top img{
+    width: 375px;
+}
+
+.mid {
+text-align: center;
+margin-bottom: 15px;
+}
+.mid h3{
+    color: #4c3e79;
+}
+
+.bot{
+    margin: 10px;
+}
+.name{
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:#99999920 1px 1px;
+    
+}
+.name input{
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 30px;
+    width: 98%;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #99999920 ;
+}
+
+.number{
+    margin-bottom: 15px;
+    box-shadow:#99999920 1px 1px;
+}
+.number input{
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 30px;
+    width: 98%;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #99999920;
+}
+
+.password{
+    margin-bottom: 15px;
+    box-shadow:#99999920 1px 1px;
+}
+.password input{
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 30px;
+    width: 98%;
+    margin: 5px;
+    border: none;
+    border-bottom: 1px solid #99999920 ;
+}
+
+.des{
+    margin-bottom: 30px;
+}
+p{
+    position: absolute;
+    right: 15px;
+    font-size: 12px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button .a{
+    padding: 10px;
+    border-radius: 24px;
+    text-align: center;
+    width: 100px;
+    border: 1px solid #4c3e79;
+    color:#4c3e79 ;
+}
+
+.b{
+    padding: 10px;
+    border-radius: 24px;
+    text-align: center;
+    width: 100px;
+    color:white;
+    border: none;
+    background-color: #4c3e79;
+}
+.b a{
+    cursor: pointer;
+}

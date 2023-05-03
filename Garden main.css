@@ -1,0 +1,266 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e8e1d1;
+    color: #7c6b4f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    border-bottom: 1px solid #7c6b4f27;
+}
+.header .i{
+    width: 100%;
+    height: 290px;
+}
+
+
+.top{
+    height: 127px;
+    width: 320px;
+    position: absolute;
+    left: 600px;
+    top: 60px;
+}
+
+
+.menu{
+    display: flex;
+    gap:15px;
+   position: absolute;
+   left: 405px;
+   top: 215px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu span:hover{
+    color: #f2ffff;
+    background: url(./blue.gif) no-repeat left top;
+}
+.menu span{
+    cursor: pointer;
+    height: 34px;
+    padding: 7px 15px;
+    background-color: #f6efe5;
+     color: #0e426d;
+     font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.211);
+}
+
+
+.middle{
+    background: #f6efe5;
+    border: 1px solid #e0dacc;
+    overflow: hidden;
+    padding: 0 0 40px;
+    width: 962px;
+    height: 692px;
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    position: absolute;
+    top: 270px;
+    left: 280px;
+}
+
+.o{
+    height: 650px;
+    padding: 0 25px 0 20px;
+    width: 320px;
+}
+.o h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 28px;
+    text-align: center;
+    text-shadow: 0 1px #ffffff;
+    color: #164773;
+}
+.o img{
+    padding: 3px;
+}
+.o h2{
+    color: #3e3524;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0 0 5px;
+}
+.o p{
+    color: #7c6b4f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    line-height: 23px;
+    text-align: justify;
+    padding: 0;
+}
+.o a{
+    color: #7c6b4f;
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: center;
+    width: 142px;
+    background:url(./readmore.png);
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
+.p{
+    height: 650px;
+    padding: 0 25px 0 15px;
+    width: 320px;
+    border-left: 2px solid rgba(120, 119, 119, 0.144);
+    border-right: 2px solid rgba(120, 119, 119, 0.144);
+}
+.p h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 28px;
+    text-align: center;
+    text-shadow: 0 1px #ffffff;
+    color: #164773;
+}
+.p img{
+    padding: 3px;
+}
+.p h2{
+    color: #3e3524;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0 0 5px;
+}
+.p p{
+    color: #7c6b4f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    line-height: 23px;
+    text-align: justify;
+    padding: 0;
+}
+.p a{
+    color: #7c6b4f;
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: center;
+    width: 142px;
+    background:url(./readmore.png);
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
+.q{
+    height: 650px;
+    padding: 0 25px 0 20px;
+    width: 320px;
+}
+.q h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 28px;
+    text-align: center;
+    text-shadow: 0 1px #ffffff;
+    color: #164773;
+}
+.q img{
+    padding: 3px;
+}
+.q a{
+    color: #7c6b4f;
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: center;
+    width: 142px;
+    background:url(./readmore.png);
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
+
+.bottom{
+    height: 304px;
+    width: 960px;
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    position: absolute;
+    gap: 20px;
+    top: 990px;
+    left: 280px;;
+}
+.bottom h3{
+    color: #164773;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: 0 0 5px;
+    padding: 0 0 0 3px;
+}
+.bottom .mag,.get,.sup,.gal{
+    background: url(./BACKGROUND.GARDEN.gif) no-repeat;
+    height: 276px;
+    margin: 0;
+    padding: 10px 0 0;
+    position: relative;
+    width: 226px;
+    border: 0;
+    line-height: 24px;
+}
+.mag p{
+    line-height: 24px;
+    margin: 0;
+    padding: 0 13px;
+}
+.mag img{
+    margin: 2px 0 0 3px;
+}
+
+.gal b,p{
+    padding: 0 13px;
+}
+.gal img{
+    margin: 5px 13px;
+}
+
+.sup b,p{
+    padding: 0 13px;
+}
+
+
+.footer{
+    width: 100%;
+    position: absolute;
+    top:1325px;
+    height: 104px;
+}
+.footer img{
+    height: 104px;
+    width: 100px;
+}
+.footer .z,.s{
+    width:189px
+}
+
+
+.icon { 
+ font-family: "Times New Roman", Times, serif;
+ position: absolute;
+ top:1370px;
+ right: 200px;
+}

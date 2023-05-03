@@ -1,0 +1,277 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;;
+}
+
+.body{
+    background-color: #ffffff;
+    width: 100%;
+    height:680px;
+    position: relative;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    padding: 12px 5px 16px 16px;
+}
+
+.main .right{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 32px;
+    position: absolute;
+    right: 210px;
+    top: 8px;
+}
+
+.main .right .line{
+    height: 37px;
+    border:0.1px solid rgba(0, 0, 0, 0.6);
+    margin-top: 7px;
+    margin-right: -25px;   
+}
+
+
+.main .right .discover,
+.main .right .people,
+.main .right .learning,
+.main .right .jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.main .right .discover i,
+.main .right .people i,
+.main .right .learning i,
+.main .right .jobs i
+{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .right .discover h6,
+.main .right .people h6,
+.main .right .learning h6,
+.main .right .jobs h6{
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.main .right a{
+    text-decoration: none;
+    display: grid;
+    gap: 3px;
+}
+
+.main .right .discover a i:hover{
+color: black;
+}
+.main .right .discover a h6:hover{
+    color: black;
+}
+
+.main .right .people a i:hover{
+    color: black;
+}
+    .main .right .people a h6:hover{
+        color: black; 
+}
+
+.main .right .learning a i:hover{
+    color: black;
+}
+    .main .right .learning a h6:hover{
+        color: black; 
+}
+
+.main .right .jobs a i:hover{
+    color: black;
+}
+    .main .right .jobs a h6:hover{
+        color: black; 
+}
+
+.joinnow{
+    margin-top: 6px;
+}
+.joinnow a{
+    text-decoration:none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px; 
+    font-weight:600;
+    padding: 12px 24px;
+}
+.joinnow a:hover{
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color:  rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+.signin{
+    margin-top:6px;
+    text-align: center;
+}
+.signin a{
+    text-decoration:none;
+    color: #0a66c2;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 23px 13px 23px;
+    text-align:center;
+    border-radius: 24px;
+    border: 1.5px solid #0a66c2;
+    margin-left:-20px 
+           
+}
+.signin a:hover{
+    background-color:#c5defab2;
+}
+
+.left{
+    padding-left: 167px;
+    padding-top: 4px;    
+}
+
+.in img{
+    width: 159px;
+    height: 98%;
+}
+
+
+
+.image img{
+    width:700px;
+    height:560px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+} 
+
+.content{
+    width: 571.575px;
+    height: 454.312px;
+    margin-left: 195px;
+    margin-top: 40px; 
+}
+
+.content h1{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    font-weight: 200;
+    color: #8f5849;
+    line-height: 1.2;
+}
+
+.input{
+    margin-top: 36px;
+}
+
+.content input{
+    font-size:16px;
+    line-height:1.5;
+    font-weight:400;
+    color: rgba(0,0,0,0.9);
+    height: 48px;
+    width: 409px;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 2px;
+    padding: 12px 20px 13px 11px;
+}
+
+.content input:focus{
+    border: 1px solid #2977c9;
+}
+
+.content .input2{
+    margin-top: 12px;
+}
+
+.content p{
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    margin: 12px 0;
+}
+
+.content p a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #0a66c2;
+}
+.content p a:hover{
+    text-decoration: underline;
+}
+
+
+.content button{
+    padding: 0px 32px 1px 32px;
+    height: 56px;
+    width: 409px;
+    border-radius: 28px;
+    border: none;
+    background-color: #2977c9;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 1px;
+    text-align: center;
+}
+.content button:hover{
+    background-color: #0073b1;
+}
+.content button a{
+    text-decoration: none;
+    color: white;
+}
+
+.content .D{
+    display: flex;
+    margin-top: 27px;
+}
+
+.content .A{
+    border-bottom: 0.1rem solid rgb(0 0 0 / .35);
+    width: 180px;  
+}
+
+.content .D span{
+  position: absolute;
+  left: 392px;
+  top: 535px;
+  color:  rgba(0, 0, 0, 0.6);
+}
+
+.content .B{
+    border-bottom: 0.1rem solid rgb(0 0 0 / .35);
+    width: 180px;
+    margin-left: 48px;   
+}
+
+.content .Z{
+    position: absolute;
+    top: 563px;
+    left: 299px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 100%;
+}
+
+.content .Z a{
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 600;
+    color: #0a66c2;
+}

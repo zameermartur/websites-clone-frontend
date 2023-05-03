@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Dat mode / Night mode mini project</h1>
+
+        <button onclick="changemode()" id="day">Night-Mode</button>
+    </div>
+    <script>
+        let nbtn = document.getElementById("day")
+        let container = document.getElementById("container")
+        function changemode(){
+            if(nbtn.innerText === "Night-Mode"){
+                nbtn.innerText ="Day-Mode"
+                container.style.cssText = "background-color:black; color:white;"
+            }
+            else{
+                nbtn.innerText = "Night-Mode"
+                container.style.cssText = "background-color:white; color:black;"
+            }
+        }
+    </script>
+</body>
+</html>
